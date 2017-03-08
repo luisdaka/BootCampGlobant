@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<parameter name="browser" value="firefox"/>
+<parameter name="originCity" value="(MDE)"/>
+<parameter name="destinyCity" value="(CUN)"/>
+<parameter name="departureDayCalendar" value="06/06/2017"/>
+<parameter name="arrivalDayCalendar" value="06/06/2017"/>
+<parameter name="numberpassengers" value="4"/>
+
+  
+  <test name="Test">
+    <classes>
+      <class name="Test.LaunchTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

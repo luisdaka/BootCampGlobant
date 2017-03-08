@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="searchedVideo" value="AC Milan vs Real Madrid 2-2 "/>
+  <parameter name="pass" value="kurosaki1"/>
+  <parameter name="browser" value="firefox"/>
+  <parameter name="SelectedVideo" value="AC Milan vs Real Madrid 2-2 - UCL 2010/2011 - Full Highlights HD 720p"/>
+  <parameter name="user" value="luisdaka123@gmail.com"/>
+  <parameter name="url" value="https://www.youtube.com/"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="Test.LaunchTest">
+        <methods>
+          <include name="maximize"/>
+          <include name="quitDriver"/>
+          <include name="launchTest2"/>
+          <include name="launchTest1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Test.LaunchTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

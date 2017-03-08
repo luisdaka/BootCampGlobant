@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="browser" value="firefox"/>
+<parameter name="url" value="https://www.youtube.com/"/>
+<parameter name="user" value="luisdaka123@gmail.com"/>
+<parameter name="pass" value="kurosaki1"/>
+<parameter name="searchedVideo" value="AC Milan vs Real Madrid 2-2 "/>
+<parameter name="SelectedVideo" value="AC Milan vs Real Madrid 2-2 - UCL 2010/2011 - Full Highlights HD 720p"/>
+
+
+  <test name="Test">
+    <classes>
+      <class name="Test.LaunchTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

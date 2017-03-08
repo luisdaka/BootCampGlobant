@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="departureDayCalendar" value="06/06/2017"/>
+  <parameter name="browser" value="firefox"/>
+  <parameter name="arrivalDayCalendar" value="06/06/2017"/>
+  <parameter name="numberpassengers" value="4"/>
+  <parameter name="originCity" value="(MDE)"/>
+  <parameter name="destinyCity" value="(CUN)"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="Test.LaunchTest">
+        <methods>
+          <include name="launchDriver" invocation-numbers="0"/>
+          <include name="setUrl"/>
+        </methods>
+      </class> <!-- Test.LaunchTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
